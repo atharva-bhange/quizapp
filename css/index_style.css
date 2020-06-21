@@ -1,0 +1,19 @@
+.login-box form {
+	margin : 1rem;
+	display: inline-block;
+	border : solid 1px black;
+	padding: 1rem;
+	border-radius: 2rem;
+
+}
+
+.login-box {
+	text-align: center;
+
+}
+
+
+form h2 {
+	border-bottom: solid 1px black;
+	display: inline-block;	
+}	

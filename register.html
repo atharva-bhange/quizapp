@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Register</title>
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/register_style.css">
+</head>
+<body>
+	<div class="container ">
+		<div class="register-box">
+			<form id="register-form">
+				<h3>Register</h3>
+				<div id="msg_box"> </div>
+			    <div class="form-group">
+			        <label for="inputEmail">Email</label>
+			        <input type="email" class="form-control" name="email" id="email" placeholder="Email" required>
+			    </div>
+			    <div class="form-group">
+			        <label for="inputPassword">Password</label>
+			        <input type="password" class="form-control" name="pass1" id="pass1" placeholder="Password" required>
+			    </div>
+			    <div class="form-group">
+			        <label for="inputPassword">Retype Password</label>
+			        <input type="password" class="form-control" name="pass2" id="pass2" placeholder="Retype Password" required>
+			    </div>
+
+			    <a href="index.html"><button type="button" class="btn btn-primary">Sign in</button></a>
+			    <input type="button" id="submit" class="btn btn-success" value="Register">
+			</form>
+		</div>
+	</div>
+
+	<script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
+	<script type="text/javascript" src="js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="js/popper.min.js"></script>
+	<script type="text/javascript" src="js/register_js.js"></script>
+
+</body>
+</html>

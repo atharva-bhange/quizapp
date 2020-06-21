@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>New Quiz</title>
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/newquiz_style.css">
+</head>
+<body>
+	<div class="container">
+		<form name="quiz" method="post" action="php/save_quiz.php">
+		<h2>Make a quiz
+			<input id="name" type="text" name="quiz_name" maxlength="15" size="15">
+			<a href="dashboard.html"><input id="back" type="button" class="btn btn-primary" value="Back to Dashboard"></a>	
+			<input type="submit"  id="save" class="btn btn-outline-success" value="Save Quiz">
+		</h2>
+
+		<input type="button" class="btn btn-warning add_question" value="Add Question">
+
+			<input type="hidden" name="no_question" id="no_question" value="0">
+			<div id="question_box">
+					
+			</div>
+		</form>
+		
+
+	</div>
+	<script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
+	<script type="text/javascript" src="js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="js/popper.min.js"></script>
+	<script type="text/javascript" src="js/newquiz_js.js"></script>
+</body>
+</html>

@@ -1,0 +1,10 @@
+.quiz_list {
+	margin: 1rem;
+}
+
+.quiz {
+	margin-bottom: 1rem;
+	padding: 1rem;
+	background-color: lightgrey;
+	border-radius: 10px;
+}

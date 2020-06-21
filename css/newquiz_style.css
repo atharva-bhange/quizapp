@@ -1,0 +1,21 @@
+#save {
+	float: right;
+	margin-top: 1rem;
+}
+
+#back {
+	float: right;
+	margin-top: 1rem;
+	margin-left: 1rem;
+}
+
+.question {
+	padding: 1rem;
+	margin:1rem;
+	background-color: lightsgrey;	
+	border-radius:1rem; 
+}
+
+#name {
+
+}

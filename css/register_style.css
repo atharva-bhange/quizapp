@@ -1,0 +1,19 @@
+.register-box form {
+	
+	margin : 1rem;
+	display: inline-block;
+	border : solid 1px black;
+	padding: 1rem;
+	border-radius: 2rem;
+
+}
+
+.register-box {
+	text-align: center;
+}
+
+form h3 {
+	display: inline-block;	
+	border-bottom: solid 1px black;
+
+}
